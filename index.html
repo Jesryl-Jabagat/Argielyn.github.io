@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tongco Portfolio</title>
+    <link rel="shortcut icon" href="asset/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  </head>
+  <body>
+    <header>
+      
+
+
+        <nav>
+          
+          <input type="checkbox" id="sidebar-active">
+          <label for="sidebar-active" class="open-sidebar-button">
+              <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#e8eaed">
+                  <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+              </svg>
+          </label>
+  
+          <div class="links-container">
+              <label for="sidebar-active" class="close-sidebar-button">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+              </label>
+  
+              <li><a href="#home" >Home</a></li>
+              <li><a href="#collection" >Our Collection</a></li>
+              <li><a href="#about">About Me</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <button class="custom-signup-btn" >Sign up</button>
+          </div>
+         
+      </nav>
+       
+
+    </header>
+
+    <div class="login-container" style="visibility: hidden;">
+      <svg xmlns="http://www.w3.org/2000/svg" id="close-btn" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+      <div class="login-header">
+          <h1>Welcome back</h1>
+          <p>Please enter your details to sign in</p>
+      </div>
+      <form>
+          <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" required placeholder="Enter your email">
+          </div>
+          <div class="form-group">
+              <label for="password">Password</label>
+              <input type="password" id="password" required placeholder="Enter your password">
+          </div>
+          <button type="submit" class="login-button">Sign in</button>
+      </form>
+      
+      <div class="login-footer">
+          <span>Don't have an account?</span>
+          <a href="#" id="signup">Sign up</a>
+          <br>
+          
+          <a href="#">Forgot password?</a>
+      </div>
+  </div>
+
+  <div class="signup-container" style="visibility: hidden;">
+    <svg xmlns="http://www.w3.org/2000/svg" id="close-btn1" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+    <div class="signup-header">
+        <h1>Join with us</h1>
+        <p>Please enter your details to sign up</p>
+    </div>
+    <form>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" required placeholder="Enter your email">
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" required placeholder="Enter your password">
+        </div>
+        <div class="form-group">
+          <label for="password">Confirm Password</label>
+          <input type="password" id="password" required placeholder="Confirm your password">
+        </div>
+        <button type="submit" class="signup-button">Sign up</button>
+    </form>
+    <div class="signup-footer">
+        <span>Already have an account?</span>
+        <a href="#" id="signin">Sign in</a>
+        
+        
+      
+    </div>
+</div>
+    
+
+
+    <section class="hero" id="home">
+      <h1>
+        Every Bloom <br />
+        Tells a Story
+      </h1>
+      <div class="line"></div>
+      <p>
+        Discover floral artistry crafted for <br />
+        life’s beautiful moments <br />
+        each arrangement a unique expression of <br />
+        nature and sentiment.
+      </p>
+      <img src="asset/banner-flower.jpg" alt="Flower 1" id="flower1" />
+      <img src="asset/banner-flower1.jpg" alt="Flower 2" id="flower2" />
+      <a href="#collection" class="button1">Explore Our Collection</a>
+    </section>
+
+    <section class="about" id="collection">
+      <img src="asset/Vector.png" alt="" />
+      <h1>Welcome to Tongco,</h1>
+      <h1 style="margin: 0">a showcase of nature’s finest blooms.</h1>
+
+      <div class="line1"></div>
+      <p>
+        From vibrant roses to elegant lilies, each arrangement in our collection
+        is designed to inspire and uplift. Discover floral artistry crafted with
+        care, perfect for celebrating moments or simply bringing beauty into
+        your space.
+      </p>
+
+      <div class="shop">
+        <div class="display-flower">
+          <div class="img-container">
+            <img src="asset/flower1.jpg" alt="" />
+            <button class="btn-buy">⭐Rate</button>
+          </div>
+
+          <h2>Roses</h2>
+        </div>
+
+        <div class="display-flower">
+          <div class="img-container">
+            <img src="asset/flower2.jpg" alt="" />
+            <button class="btn-buy">⭐Rate</button>
+          </div>
+          <h2>Flower Bouquet</h2>
+        </div>
+
+        <div class="display-flower">
+          <div class="img-container">
+            <img src="asset/flower3.jpg" alt="" />
+            <button class="btn-buy">⭐Rate</button>
+          </div>
+          <h2>Ikebana</h2>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-us" id="about">
+      <h1>About Me</h1>
+
+      <img src="asset/argielyn.jpg" alt="" />
+
+      <div class="info_me">
+        <h1>Argielyn Tongco, <span class="break">I am a florist</span></h1>
+        <p>
+          My work is a celebration of nature’s beauty, capturing each flower’s
+          unique essence and turning it into a meaningful arrangement. From
+          radiant bouquets to intricate centerpieces, each piece I create is
+          crafted with the vision to tell a story, evoke emotion, and add
+          elegance to any setting.
+        </p>
+      </div>
+
+      <div class="line2"></div>
+
+      <div class="button-container">
+        <a href="#contact" class="button">Contact Me</a>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h1 class="greetings">Let's Stay in Touch!</h1>
+
+      <div class="line3"></div>
+
+      <p>
+        Interested in our flowers or need advice? Then please get in touch and
+        we’ll be glad to help.
+      </p>
+
+      <div class="contact-info">
+        <div class="location">
+          <i class="fas fa-map-marker-alt"></i>
+          <span>SF,Talibon,Bohol</span>
+        </div>
+        <div class="phone">
+          <i class="fas fa-phone-alt"></i>
+          <span>+639 124 258 617</span>
+        </div>
+        <div class="email">
+          <i class="fas fa-envelope"></i>
+          <span>Tongco1234.mail</span>
+        </div>
+      </div>
+
+      <ul class="social">
+        <li>
+          <a href="https://www.facebook.com" target="_blank"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com" target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com" target="_blank"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.github.com" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+        </li>
+      </ul>
+    </section>
+    <section class="copyright">© 2024 Tongco Portfolio. All rights reserved.</section>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
